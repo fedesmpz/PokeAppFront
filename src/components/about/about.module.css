@@ -1,0 +1,123 @@
+.image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: url(../../assets/fondo2.png) center/cover no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 8px;
+    gap: 10px;
+    position: relative;
+    width: 1032px;
+    height: 610px;
+    left: calc(50% - 1032px/2);
+    top: 100px;
+    background: #373737;
+    border-radius: 24px;
+  }
+  
+  .btn {
+    background: url(../../assets/Vector.svg) center/cover no-repeat;
+    position: absolute;
+    box-sizing: border-box;
+    width: 20px;
+    height: 20px;
+    left: -40px;
+    top: 10px;
+    order: 0;
+    cursor: pointer;
+  }
+
+  .titleContainer {
+    box-sizing: border-box;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    left: 60px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .titleCard {
+    width: 960px;
+    height: 40px;
+    text-transform: capitalize;
+    font-family: 'Avenir';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+  }
+  
+  .pkmnContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 32px;
+    gap: 32px;
+    width: 1016px;
+    height: 536px;
+    position: absolute;
+    top: 65px;
+    background: #C20505;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  
+  .imgContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 80px;
+    gap: 10px;
+    width: 600px;
+    height: 472px;
+    background: #373737;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  img {
+    width: 440px;
+    height: 440px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  
+  .dataContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    gap: 16px;
+    width: 320px;
+    height: 462px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    text-align: left;
+    font-family: 'Avenir';
+  }
+  
